@@ -44,11 +44,11 @@
     "@balancer-labs/v3-solidity-utils": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
-    "eslint": "^8.26.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-mocha-no-only": "^1.1.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "hardhat": "^2.14.0",
-    "mocha": "^10.1.0",
+    "hardhat": "^2.23.0",
+    "mocha": "^11.0.1",
     "solhint": "^3.4.1"
   }
 }
