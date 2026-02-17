@@ -38,16 +38,16 @@
     "slither:triage": "yarn compile && bash -c 'source ../../slither/bin/activate && slither --compile-force-framework hardhat --ignore-compile . --config-file ../../.slither.config.json --triage-mode'"
   },
   "dependencies": {
-    "@balancer-labs/v3-interfaces": "workspace:*"
+    "@balancer-labs/v3-interfaces": "0.1.0"
   },
   "devDependencies": {
     "@balancer-labs/solidity-toolbox": "workspace:*",
-    "@balancer-labs/v3-pool-utils": "workspace:*",
+    "@balancer-labs/v3-pool-utils": "0.1.0",
     "@balancer-labs/v3-solidity-utils": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
     "decimal.js": "^10.4.2",
-    "eslint": "^8.26.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-mocha-no-only": "^1.1.1",
     "eslint-plugin-prettier": "^4.2.1",
     "hardhat": "^2.14.0",
